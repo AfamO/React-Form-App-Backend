@@ -4,7 +4,7 @@ const cors = require('cors');
 const bcrypt = require('bcrypt');
 const body_Parser = require('body-parser');
 const helmet = require('helmet');
-const dbApp3 = require('./DBApp3');
+const dbApp3 = require('./FeaturedDBApp');
 
 app.use(express.static(__dirname+"/views"));
 app.use(body_Parser.urlencoded({extended:false}))
