@@ -7,6 +7,8 @@
 /*  ================== */
 
 /** 1) Install & Set up mongoose */
+var bodyParser = require("body-parser");
+
 
 // Add `mongodb` and `mongoose` to the project's `package.json`. Then require 
 // `mongoose`. Store your **mLab** database URI in the private `.env` file 
